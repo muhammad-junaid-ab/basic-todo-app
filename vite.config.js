@@ -9,4 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: "https://github.com/muhammad-junaid-ab/basic-todo-app.git",
 })
