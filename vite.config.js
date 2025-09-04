@@ -2,12 +2,11 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss()
+    tailwindcss(),
   ],
-  base: "https://github.com/muhammad-junaid-ab/basic-todo-app.git",
+  base: '/basic-todo-app/', // ✅ use repo name here, not GitHub link
 })
